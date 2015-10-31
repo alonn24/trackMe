@@ -1,19 +1,7 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- */
 'use strict';
 
-var React = require('react-native');
-var MoviesList = require('./components/moviesList');
+import React, { Component } from 'react-native';
+var App = require('./app/app');
 var {AppRegistry} = React;
 
-var trackMe = React.createClass({
-	render : function () {
-		return (
-				<MoviesList/>
-		);
-	}
-});
-
-AppRegistry.registerComponent('trackMe', () => trackMe);
+AppRegistry.registerComponent('trackMe', () => App);
