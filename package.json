@@ -1,14 +1,21 @@
 {
   "name": "trackMe",
   "version": "0.0.1",
+  "description": "",
   "private": true,
+  "main": "server/index.js",
   "scripts": {
-    "start": "node_modules/react-native/packager/packager.sh"
+    "start": "node server/index.js"
   },
   "dependencies": {
+    "ejs": "2.3.3",
+    "express": "4.13.3",
     "react": "^0.14.1",
     "react-native": "^0.13.2",
     "react-redux": "^4.0.0",
     "redux": "^3.0.4"
+  },
+  "engines": {
+    "node": "0.12.7"
   }
 }
